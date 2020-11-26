@@ -1,9 +1,9 @@
 import * as React from 'react';
-
+import Input from './components/Input'
 export class Root extends React.Component {
     render() {
-        return (
-            <h1>Hello World</h1>
+        return (<div>
+            <Input/></div>
         );
     }
 }
